@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;  
+    font-style: normal;
+  
+}
+.main_container{
+    width: 700px;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid  black;
+    text-align: center;
+
+}
+.container{
+    margin: 25px 120px;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 10px;
+}
+.container img{
+    margin: 1rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+.main{
+    margin: 20px 20px;
+}
+.main h1{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(6, 200, 214);
+}
+.main h5{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.main input[type="text"]{
+    margin-top: 17px;
+    margin-left: 25px;
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 150, 150);
+
+}
+.main ::placeholder{
+    font-size: 10px;
+    font-weight: 400;
+}
+.enter{
+    background-color:rgb(6, 200, 214);
+    color: #fff;
+    border-radius: 4px;
+    border: 1px;
+    width: 70px;
+    height: 25px;
+    margin-left: 5px;
+    
+}
+.enter:hover{
+    background-color:rgb(6, 200, 214);
+    color: rgb(6, 23, 24);
+    border: none;
+}
+.main p{
+    color: rgb(177, 165, 165);
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(182, 170, 170);
+}
+
+.main h3{
+    color: rgb(6, 200, 214);
+    margin-top: 17px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+.button{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+}
+
+.btn{
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-transform: capitalize;   
+    border: 2px solid rgb(104, 231, 240);
+    background-color: rgb(242, 249, 250);
+}
+.button .btn:hover {
+    background-color: rgb(6, 200, 214);
+    border: none;
+}
+
+/* CSS for Quiz Section */
+.quiz-container {
+    text-align: center;
+    margin: 25px 120px;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    text-align: center;
+ }
+ .timer-container{
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+  }
+  .timer-container p span {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    padding: 5px 5px;
+    border: 2px solid rgb(6, 200, 214);
+
+
+  }
+.score-container {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.score-container p {
+    text-transform: uppercase;
+    color: rgb(102, 100, 100);
+    font-size: 14px;
+}
+.score-container p  span{
+    font-weight: 800;
+    color: black;
+    font-size: 16px;
+}
+
+
+.question-container {
+    border: 2px solid rgb(170, 168, 168);
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 80px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+.score-container {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.options-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    width: 400px;
+    margin: 20px auto;
+
+}
+
+.options-container .option {
+    cursor: pointer;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    text-transform: capitalize;   
+    border: 2px solid rgb(6, 200, 214);
+    color: rgb(6, 200, 214);
+    background-color: #fff;
+
+}
+
+.options-container .option:hover {
+    background-color: rgb(6, 200, 214);
+    color: #fff;
+    border: none;
+}
+#next-button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: rgb(6, 200, 214);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/* CSS for Result Section */
+.result-main-container {
+    border: 1px solid black;
+}
+.result-container{
+    margin: 25px 120px;
+    border: 2px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    text-align: center;
+}
+.result-container h4{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(6, 200, 214);
+}
+
+.result-container p {
+    margin: 10px 0;
+    font-size: 11px;
+    color: rgb(121, 120, 120);
+}
+.result-container p span{
+    font-weight: 800;
+    font-size: 12px;
+    color:black;
+}
+
+.result-container button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: rgb(6, 200, 214);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.result-container button:hover {
+    background-color: rgb(6, 200, 214);
+    border: none;
+}
+   

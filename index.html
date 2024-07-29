@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application</title>
+    <!-- Font CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="container">
+        <!--Inserting logo -->
+        <img src="logo.jpeg" alt="">
+        <div class="main">
+          <h1>Hello User!</h1>
+          <h5>Enter your name to continue the Quiz.</h5>
+          <input type="text" placeholder="ENTER YOUR NAME" />
+          <button class="enter">ENTER</button>
+          <p>You'll have 10 seconds to answer each questions</p>
+          <h3>Select Category</h3>
+          <div class="button">
+            <button class="btn" data-category="pipes_and_cisterns">Pipes and Cistern</button>
+            <button class="btn" data-category="probability">Probability</button>
+            <button class="btn" data-category="problems_on_age">Problems on Age</button>
+            <button class="btn" data-category="profit_and_loss">Profit and Loss</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Adding JavaScript file -->
+    <script src="main.js"></script>
+  </body>
+</html>
+
